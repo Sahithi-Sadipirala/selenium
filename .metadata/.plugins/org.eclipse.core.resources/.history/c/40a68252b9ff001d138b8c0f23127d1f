@@ -1,0 +1,8 @@
+package database;
+
+public class Snippet {
+	public static void main(String[] args) {
+		pkg1.tests2.class7
+	}
+}
+

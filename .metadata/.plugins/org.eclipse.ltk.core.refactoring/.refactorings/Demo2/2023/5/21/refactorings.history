@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;Excelpkg.package-info.java&apos; to &apos;dataDriven.java&apos;&#x0D;&#x0A;- Original project: &apos;Demo2&apos;&#x0D;&#x0A;- Original element: &apos;Excelpkg.package-info.java&apos;&#x0D;&#x0A;- Renamed element: &apos;Excelpkg.dataDriven.java&apos;" description="Rename compilation unit &apos;package-info.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/test\/java=/test=/true=/=/optional=/true=/=/maven.pomderived=/true=/&lt;Excelpkg{package-info.java" name="dataDriven.java" references="false" stamp="1684850839860" version="1.0"/>
+</session>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="url" value="http://google.com"/>
+  <groups>
+    <run>
+      <include name="dropdown"/>
+    </run>
+  </groups>
+  <test thread-count="2" parallel="classes" name="Test1">
+    <parameter name="url" value="http://google.com"/>
+    <classes>
+      <class name="pkg1.tests2.class2">
+        <methods>
+          <exclude name="testcase2_ppt_actions"/>
+        </methods>
+      </class> <!-- pkg1.tests2.class2 -->
+      <class name="pkg1.tests2.class4">
+        <methods>
+          <include name="window.*"/>
+        </methods>
+      </class> <!-- pkg1.tests2.class4 -->
+    </classes>
+  </test> <!-- Test1 -->
+  <test name="Test2">
+    <classes>
+      <class name="pkg1.tests2.class5"/>
+      <class name="pkg1.tests2.class6"/>
+      <class name="pkg1.tests2.class7"/>
+      <class name="pkg1.tests2.class8"/>
+    </classes>
+  </test> <!-- Test2 -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,33 @@
+package pkg1.test;
+
+import java.io.IOException;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
+
+public class class4 {
+	static WebDriver driver;
+	public class4(WebDriver driver) {
+		super();
+		this.driver = driver;
+		PageFactory.initElements(driver,this);		
+	}
+	
+	@FindBy(xpath="//button[@data-unique-id='StatusBar-ZoomIn']")
+	WebElement zoomin;
+	
+	public void dropdown() throws InterruptedException, IOException {
+		for(int i=0; i<5; i++) {
+			zoomin.click();
+		}
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("window.scrollBy(0,500)");
+	//	js.executeScript("document.querySelector('.tableFixHead').scrollTop=5000");
+	}
+}

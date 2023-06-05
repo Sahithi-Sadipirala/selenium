@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;pkg1.tests2.datadriven_excel&apos; to &apos;class8&apos;&#x0D;&#x0A;- Original project: &apos;Demo1&apos;&#x0D;&#x0A;- Original element: &apos;pkg1.tests2.datadriven_excel&apos;&#x0D;&#x0A;- Renamed element: &apos;pkg1.tests2.class8&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;datadriven_excel&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/test=/true=/=/optional=/true=/=/maven.pomderived=/true=/&lt;pkg1.tests2{datadriven_excel.java[datadriven_excel" matchStrategy="1" name="class8" qualified="false" references="true" similarDeclarations="false" stamp="1685539099535" textual="false" version="1.0"/>
+</session>
